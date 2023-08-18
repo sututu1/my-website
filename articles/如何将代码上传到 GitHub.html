@@ -15,20 +15,47 @@
 }
 </style>
 <body>
+    <nav>
+        <ul class="header">
+          <li class="front-page">
+            <a href="../home.html">首页</a>
+          </li>
+          <li>
+            <a href="../about.html">关于我</a>
+          </li>
+          <li>
+            <a href="../blog.html">我的博客</a>
+          </li>
+          <li>
+            <a href="../projects.html">我的项目</a>
+          </li>
+        </ul>
+      </nav>
+ <div>     
 <h1 class="rag">如何将代码上传到 GitHub?</h1><br />
 
 <p>2023/8/15</p><br />
 
-<p class="text">前置条件: Vscode编辑器安装好,必要的插件也安装好 <br />
-
-第一步: 新建一个文件夹或文件;<br />
-
-第二步: 然后用命令行git commit -m + 文件名;<br />
-
-第三步: 用 git push 拉取代码;<br />
-
-第四步: 用 git pull 同步代码;</p><br />
-
-第五步: 最后在 GitHub 网站验证是否提交成功.
+ <p> Git 使用方法,在终端上执行命令<br />
+1.用mkdir命令新建文件夹 (mkdir main);<br />
+2.用cd 切换到当前目录 (cd main);<br />
+3.用touch新建文件 (touch hello.js);<br />
+4.用 vi hello.js 添加文本内容 (vi hello.js),编辑console.log(“hello world”);<br />
+5.在 GitHub 新建新仓库 (main);<br />
+echo "# main" >> README.md<br />
+git init<br />
+git add README.md<br />
+git commit -m "first commit"<br />
+git branch -M main<br />
+git remote add origin https://github.com/sututu1/main.git<br />
+git push -u origin main<br />
+按上述命令执行;<br />
+6.用git add +文件名 (git add hello.js);<br />
+7.用 git commit -m ‘更新文本内容/有意义的信息’ ;<br />
+8.用 git push命令拉取;<br />
+9.用 git pull 命令同步;<br />
+10.可以在 Git Hub网站查看文档;</p>
+ 
+</div>
 </body>
 </html>
