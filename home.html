@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>首页</title>
   </head>
+  <style>
+
+  .head{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    text-decoration:none;
+    font-size: 24px;
+    gap:45px;
+    margin-top: 60px;
+    margin-right: -40px;
+  }
+
+  a{
+    text-decoration:none;
+  }
+
+  .home{
+    margin-top: -40px;
+    margin-left: 280px; 
+  }
+  </style>
   <body>
-    <nav>
-      <ul>
+    <nav class="header">
+      <ul class="head">
         <li>
           <a href="./home.html">首页</a>
         </li>
@@ -22,9 +46,8 @@
         </li>
       </ul>
     </nav>
- 
     <div>
-      <h1>首页</h1>
+      <h1 class="home">首页</h1>
     </div>
   </body>
 </html>
