@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+  .head {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 45px;
+    margin-top: 20px;
+    margin-right: -180px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .git {
+    padding-top: -10px;
+    padding-left: 400px;
+  }
+  
+  .text{
+    font-size: 22px;
+    color: gray;
+  }
+  </style>
 <body>
     <nav>
-        <ul>
+        <ul class="head">
           <li>
             <a href="../home.html">首页</a>
           </li>
@@ -22,12 +50,12 @@
           </li>
         </ul>
       </nav>
- <div>     
-<h1 class="rag">如何将代码上传到 GitHub?</h1><br />
+ <div class="git">     
+<h1>如何将代码上传到 GitHub?</h1><br />
 
 <p>2023/8/15</p><br />
 
- <p> Git 使用方法,在终端上执行命令<br />
+ <p class="text"> Git 使用方法,在终端上执行命令<br />
 1.用mkdir命令新建文件夹 (mkdir main);<br />
 2.用cd 切换到当前目录 (cd main);<br />
 3.用touch新建文件 (touch hello.js);<br />

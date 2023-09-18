@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>如何将网站部署到 GitHub</title>
 </head>
+<style>
+  .head {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 45px;
+    margin-top: 20px;
+    margin-right: -180px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .github {
+    padding-top: -10px;
+    padding-left: 400px;
+  }
+  
+  .text{
+    font-size: 22px;
+    color: gray;
+  }
+  </style>
 <body>
   <nav>
-    <ul>
+    <ul class="head">
       <li>
         <a>首页</a>
       </li>
@@ -22,10 +50,10 @@
       </li>
     </ul>
   </nav>
-  <div>
+  <div class="github">
     <h1>如何将网站部署到 GitHub</h1>
     <p>2023/8/9</p>
-    <p>
+    <p class="text">
       1.先在github建立新仓库<br/>
       2.在新仓库建立hello.html README.md文件<br/>
       3.github的setting =>pages =>Source的下拉箭头选择GitHub Actions,再选择static HTML ,点击Configure ,最后点击commit changes,<br/>

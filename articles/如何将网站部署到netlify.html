@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>如何将网站部署到 Netlify</title>
 </head>
+<style>
+.head {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  gap: 45px;
+  margin-top: 20px;
+  margin-right: -180px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.netlify {
+  padding-top: -10px;
+  padding-left: 400px;
+}
+
+.text{
+  font-size: 22px;
+  color: gray;
+}
+</style>
 <body>
     <nav>
-        <ul>
+        <ul class="head">
           <li>
             <a href="../home">首页</a>
           </li>
@@ -24,10 +52,10 @@
           </li>
         </ul>
       </nav>
-    <div>
+    <div class="netlify">
     <h1>如何将网站部署到 Netlify</h1>
     <p>2023/8/9</p>
-    <p>
+    <p class="text">
       第 1 步：添加你的新站点 <br/>
        登录后，它会将你带到主页界面。点击 New site from git 按钮将你的新网站添加到 Netlify。<br />
        第 2 步：链接到你的 GitHub <br/>
