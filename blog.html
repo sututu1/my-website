@@ -6,27 +6,40 @@
     <title>我的博客</title>
   </head>
   <style>
-    .head{
-    margin: auto;
-    width: 50%;
-    display: flex;
-    flex-direction:row;
-    list-style-type: none;
-    text-decoration:none;
-    font-size: 24px;
-    gap:45px;
-    margin-top: 60px;
-    margin-right: -40px;
-  }
+    .head {
+      margin: auto;
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 18px;
+      gap: 45px;
+      margin-top: 20px;
+      margin-right: -180px;
+    }
 
-  a{
-    text-decoration:none;
-  }
+    a {
+      text-decoration: none;
+      font-size: 18px;
+    }
 
-  .home{
-    margin-top: -40px;
-    margin-left: 280px; 
-  }
+    .blog {
+      padding-top: 10px;
+      padding-left: 580px;
+    }
+
+    .item {
+      margin-top: 0;
+      margin-left: 580px;
+      color: rgb(0, 77, 128);
+    }
+
+    .date {
+      color: grey;
+      gap: 80px;
+      font-size: 12px;
+    }
   </style>
   <body>
     <nav>
@@ -45,16 +58,30 @@
         </li>
       </ul>
     </nav>
- 
+
     <div>
       <h1 class="blog">我的博客</h1>
-      <a href="./articles/2023年9月17的工作总结.html">2023年9月17的工作总结</a><br />
-      <a href="./articles/SQL的环境准备.html">SQL的环境准备</a><br />
-      <a href="./articles/2023年9月份的目标和任务.html">2023年9月份的目标和任务</a><br />
-      <a href="./articles/2023年8月份的总结和改进.html">2023年8月份的总结和改进</a><br />
-      <a href="./articles/如何将代码上传到 GitHub.html">如何将代码上传到 GitHub</a><br />
-      <a href="./articles/如何将网站部署到netlify.html">如何将网站部署到 Netlify</a><br />
-      <a href="./articles/如何将网站部署到github.html">如何将网站部署到 GitHub</a><br />
+      <a class="item" href="./articles/2023年9月17的工作总结.html"
+        >2023年9月17的工作总结 <span class="date">2023-9-17</span></a
+      ><br />
+      <a class="item" href="./articles/SQL的环境准备.html"
+        >SQL的环境准备 <span class="date">2023-9-10</span></a
+      ><br />
+      <a class="item" href="./articles/2023年9月份的目标和任务.html"
+        >2023年9月份的目标和任务 <span class="date">2023-9-3</span></a
+      ><br />
+      <a class="item" href="./articles/2023年8月份的总结和改进.html"
+        >2023年8月份的总结和改进 <span class="date">2023-9-3</span></a
+      ><br />
+      <a class="item" href="./articles/如何将代码上传到 GitHub.html"
+        >如何将代码上传到 GitHub <span class="date">2023-8-15</span></a
+      ><br />
+      <a class="item" href="./articles/如何将网站部署到netlify.html"
+        >如何将网站部署到 Netlify <span class="date">2023-8-9</span></a
+      ><br />
+      <a class="item" href="./articles/如何将网站部署到github.html"
+        >如何将网站部署到 GitHub <span class="date">2023-8-9</span></a
+      ><br />
     </div>
   </body>
 </html>
