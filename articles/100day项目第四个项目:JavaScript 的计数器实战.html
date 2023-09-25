@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100day项目第四个项目:JavaScript 的计数器实战</title>
+</head>
+<style>
+  .head {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 45px;
+    margin-top: 20px;
+    margin-right: -180px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .work {
+    padding-top: -10px;
+    padding-left: 400px;
+  }
+  
+  .text {
+    font-size: 22px;
+    color: gray;
+  }
+  </style>
+<body>
+    <nav>
+        <ul class="head">
+          <li>
+            <a href="../home">首页</a>
+          </li>
+          <li>
+            <a href="../about">关于我</a>
+          </li>
+          <li>
+            <a href="../blog">我的博客</a>
+          </li>
+          <li>
+            <a href="../projects">我的项目</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="work">
+    <h1>100day项目第四个项目:JavaScript 的计数器实战</h1>
+    <p>2023/9/9/25</p>
+    <p class="text">
+        100day项目第四个项目:JavaScript 的计数器实战;<br />
+        A.javascript的index.html的内容如下:<br />
+            1.html页面标题是JavaScript Counter;<br />
+            2.在JavaScript的0在该页面上显示,<br />
+              初始化的数字,必须是Int(整型);<br />
+            3.在页面显示两个按钮分别 Decrease counter和Increase
+                   counter,它来控制页面的0的上下浮动;<br />
+           B.index.js的内容如下:<br />
+            1.先定义一个匿名函数;<br />
+            2.在匿名函数的大括号定义变量 buttons,通过document的属性方法
+              querySelector All获取html元素”.btn-counter”;<br />
+            3.通过buttons的属性方法forEach来遍历以下下四种情况,
+               定义buttons函数;<br />
+            4.通过addEventListener 来监听以下四种情况(事件);<br />
+            5.如果触发按钮“decrease-btn”(减少),<br />
+              那个初始化数字从0变为负数;<br />
+              如果触发按钮“increase-btn"(增加),<br />
+              那个初始化数字就从0变为正数;<br />
+              当初始化数字为正数时,初始化数字<br />
+              的颜色变为绿色;<br />
+              当初始化数字为负数时,初始化数字<br />
+              的颜色变为#f0ad4e 颜色;<br />
+              当初始化数字为0时,初始化数字<br />
+              的颜色变为白色;<br />
+            
+    </p>  
+</div>
+</body>
+</html>
